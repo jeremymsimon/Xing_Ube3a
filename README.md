@@ -1,7 +1,7 @@
 ---
 Title: Xing_Ube3a
 Author: Jeremy M. Simon
-Date: 4/14/22
+Date: 4/28/22
 output: github_document
 ---
 
@@ -27,9 +27,7 @@ The E3 ubiquitin ligase Ube3a is biallelically expressed in mitotic cells, inclu
 
 ### What you'll find elsewhere
 
-* All data have been deposited to GEO under accession GSEXXXXXXX
-
-* The raw data matrices from Alevin are also available for download from Zenodo [here](https://zenodo.org/record/6459852)
+* All data have been deposited to GEO under accession GSE201734
 
 * The Ube3a WT data presented here [has been published previously](https://www.nature.com/articles/s41467-018-08079-9) and the original code for analysis was deposited [here](https://github.com/jeremymsimon/MouseCortex). We also created an [interactive webtool](https://zylkalab.org/datamousecortex) for exploration of the WT data
 
