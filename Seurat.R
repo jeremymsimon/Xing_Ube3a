@@ -167,11 +167,8 @@ for (i in features) {
 
 
 #Detect marker genes of each cluster
-for (i in levels(ctx.integrated)) {
-    markers <- FindMarkers(ctx.integrated, assay="SCT", slot="scale.data", ident.1=i)
-    write.table(markers,paste0("scRNA_T485A_Markers_SCT_",i,".txt"),col.names=NA,row.names=TRUE,quote=FALSE,sep="\t")
-}
-
+DefaultAssay(ctx.integrated) <- "SCT"
+markers <- FindAllMarkers(ctx.integrated, assay="SCT", slot="scale.data", only.pos=T, logfc.threshold = 0.25)
 
 
 
