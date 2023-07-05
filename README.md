@@ -1,13 +1,13 @@
 ---
 Title: Xing_Ube3a
 Author: Jeremy M. Simon
-Date: 4/28/22
+Date: 7/5/23
 output: github_document
 ---
 
-## Xing et al. 2022 (in preparation)
+## Xing et al. 2023 (_Cell Reports_)
 
-This repository contains `R` code to analyze scRNA-seq data consistent with the figures presented in Xing _et al._ 2022 (_in preparation_). 
+This repository contains `R` code to analyze scRNA-seq data consistent with the figures presented in [Xing _et al._ 2023 (_Cell Reports_)](https://www.cell.com/cell-reports/fulltext/S2211-1247(23)00717-9)
 
 We analyzed scRNA-seq (drop-seq) data from the cerebral cortex of embryonic (E14.5) and early postnatal (P0) mice to explore the consequences of Ube3a-T485A homozygous mutation. 
 
